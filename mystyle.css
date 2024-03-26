@@ -1,0 +1,146 @@
+body{ 
+       background-color: orange;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+}
+header{
+        background-color: #333;
+        color: #fff;
+        padding:20px;
+        text-align:center;
+        font-size: 50px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+      list-style-type: none;
+      pad: 0;
+}
+nav ul li a{
+             color: #fff;
+             text-decoration: none;
+}
+main{
+     padding: 20px;
+}
+section{
+        margin-top:40px;
+}
+.box{
+    display: flex;
+}
+section .review{
+    display:flex;
+    justify-content:space-between 50px;
+
+}
+      
+.review-card{
+              background-color:lightgreen;
+              border-radius: 10px;
+              box-shadow: 0 8px 12px rgba(0,0,0,0.1);
+              padding: 20px;
+              margin-bottom: 10px;
+              width: 400px;
+              height: 400px;
+              align-items: center;
+              
+}
+.review-card img {
+                  width: 100%;
+                  border-radius: 8px;
+                  margin-bottom: 10px;
+                  height: 80%;
+}
+.review-card h3{
+                font-size: 30px;
+                align-items: center;
+}
+
+main{
+        padding: 20px;
+}
+section{
+        margin-bottom: 40px;
+        margin: 15px;
+        background-color: blanchedalmond;
+}
+footer{
+        background-color:#333;
+        color: #fff;
+        text-align:center;
+        padding:20px;
+        position:fixed;
+        bottom:0;
+        width:100%;
+        font-size: 30px;
+}
+.forum-posts {
+        margin-top: 20px;
+    }
+    
+    .forum-post {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 15px;
+        background-color:burlywood;
+    }
+    
+    .forum-post h3 {
+        margin-top: 0;
+    }
+    
+    .forum-post p {
+        margin-bottom: 0;
+        
+    }
+    
+    .review{
+            justify-content: space-between;
+    }
+    #forum h2 {
+        color: #333;
+    }
+    #forum p {
+        color: #666;
+        margin-bottom: 20px;
+    }
+    /* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+        header {
+            padding: 15px;
+        }
+        nav {
+            padding: 8px;
+        }
+        nav ul li {
+            margin-right: 8px;
+        }
+        section {
+            padding: 15px;
+        }
+        footer {
+            padding: 8px;
+        }
+    }
+    
+    /* Responsive styles for larger screens */
+    @media only screen and (min-width: 1200px) {
+        header {
+            padding: 30px;
+        }
+        nav {
+            padding: 15px;
+        }
+        nav ul li {
+            margin-right: 15px;
+        }
+        section {
+            padding: 30px;
+        }
+        footer {
+            padding: 15px;
+        }
+    }
+    
